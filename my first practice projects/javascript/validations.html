@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Cyber Attack Prediction</title>
+<script>
+function myFunction() {
+  let x = document.getElementById("num").value;
+  let text;
+  if (isNaN(x) || x < 1 || x > 100) 
+    text = window.alert("number should be less than 100");
+  let x1 = document.getElementById("num2").value;
+  if (isNaN(x1) || x1 > 1)
+	text = window.alert("should be only numbers");
+  let x2 = document.getElementById("num3").value;
+  if (isNaN(x2) || x2 < 0 || x > 50)
+    text = window.alert("should be less than 50");
+}
+</script>
+</head>
+<body>
+<h1>Cyber Attack</h1><hr>
+<form action="success.html">
+<p id="demo">Host count:
+<input type="number" id="num2" name="cyber"></p>
+<p>Attack type:
+<input type="text" id="type" name="type"></p>
+<p id="demo">Percentage of host count:
+<input type="number" id="num3" name="count"></p>
+<p id="demo">Number of connections:
+<input id="num" type="number" name="connection">
+</p>
+<p>Aggregate percentage:
+<input type="number" id="percentage" name="percentage"></p>
+<p>declaration:</p>
+<input type="radio" id="html" name="type" value="prediction">
+<label for="html">Prediction</label><br>
+<input type="radio" id="html" name="type" value="detection">
+<label for="html">Detection</label><br>
+<input type="reset" value="Reset">
+<button onclick="myFunction()">Submit</button>
+</form>
+</body>
+</html>

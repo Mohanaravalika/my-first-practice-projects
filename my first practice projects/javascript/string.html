@@ -1,0 +1,27 @@
+<html>
+<body>
+<h1 id="ex">strings</h1>
+<script>
+var a="this is string concept"
+document.getElementById("ex").innerHTML=a;
+var b='single quoted string'
+document.writeln(b,"<br>")
+document.writeln(typeof b,"<br>")
+var c=new String("new keyword is used for string object")
+document.writeln(c)
+var d="<h1>string methods</h1>"
+document.writeln(d)
+document.writeln(a.indexOf(" "),"<br>")
+document.writeln(a.lastIndexOf(" "),"<br>")
+document.writeln(a,"<br>",b,"<br>",c,"<br>")
+document.writeln(b.search("o"),"<br>")
+document.writeln(b.slice(0,3),"<br>")
+document.writeln(b.slice(-3),"<br>")
+document.writeln("<p>substring and substr are only take positive signs than slice</p>",b.substring(0,3),"<br>")
+document.writeln(a.replace("string","str"),"<br>")
+document.writeln(b.concat(a),"<br>")
+document.writeln(b.length,"<br>")
+document.writeln(c.charAt(8))
+</script>
+</body>
+</html>

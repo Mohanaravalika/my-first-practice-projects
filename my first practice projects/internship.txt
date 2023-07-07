@@ -1,0 +1,21 @@
+1.First task:
+✓Reduce the number of HTTP requests.each HTTP request takes time,so the fewer requests your site makes,the faster it will load.you can reduce the number of requests by:
+✓Combining CSS and JavaScript files.
+✓Minifying your HTML,CSS and JavaScript files.
+✓Using a CDN(content delivery network).
+✓Reducing file sizes.
+✓Using the right form format for the image 
+✓Use browser coaching.
+
+2.Second task:
+✓Create offers(which would be helpful to visitors).
+✓Focus on coloring(sometimes coloring may attracts visitors to check the websites more times).
+✓Remove stocky images and ambiguous terminology (it may get visitors confused).
+✓make it mobile responsive or user friendly(like it was like mobile friendly,more helpful to visitors, easily communicate).
+✓Include social share(advertising more may helps more).
+✓Create a navigation that guides users through your site.
+✓Refresh the content regularly
+✓Add images and videos(it will get the visitor in imaginations).
+✓Improve Page speed(check the speed of website regularly).
+✓Update the design to current standards of the visitors.
+✓Add contact information prominently.
